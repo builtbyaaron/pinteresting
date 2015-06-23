@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Mono:400,700,700italic,400italic);
+
+$body-bg: #edecec;
+$navbar-border-radius: 0;
+$navbar-height: 100px;
+$navbar-default-bg: white;
+$navbar-default-brand-color: #86e2d5;
+$navbar-default-link-color: #bdc3c7;
+$navbar-default-link-hover-color: #86e2d5;
+$jumbotron-bg: white;
+$btn-primary-bg: #9f87af;
+$btn-info-bg: #7cc1e0;
+
+@import 'bootstrap';
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.btn { border: none; }
+.btn-lg { border-radius: $border-radius-large * 10; }
