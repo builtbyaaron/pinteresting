@@ -8,8 +8,7 @@ $navbar-default-brand-color: #86e2d5;
 $navbar-default-link-color: #bdc3c7;
 $navbar-default-link-hover-color: #86e2d5;
 $jumbotron-bg: white;
-$btn-primary-bg: #9f87af;
-$btn-info-bg: #7cc1e0;
+$btn-primary-bg: #86e2d5;
 
 @import 'bootstrap';
 
@@ -17,5 +16,4 @@ $btn-info-bg: #7cc1e0;
 	font-weight: bold;
 }
 
-.btn { border: none; }
 .btn-lg { border-radius: $border-radius-large * 10; }
