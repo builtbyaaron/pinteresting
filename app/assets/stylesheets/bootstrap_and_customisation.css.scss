@@ -1,19 +1,29 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Mono:400,700,700italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700);
 
-$body-bg: #edecec;
+$body-bg: #ECF0F1;
+
+$font-family-sans-serif: 'Source Code Pro', monospace;
+
 $navbar-border-radius: 0;
 $navbar-height: 100px;
 $navbar-default-bg: white;
-$navbar-default-brand-color: #86e2d5;
-$navbar-default-link-color: #bdc3c7;
-$navbar-default-link-hover-color: #86e2d5;
+$navbar-default-brand-color: darken(#ECF0F1, 15%);
+$navbar-default-brand-hover-color: #26DDBE;
+$navbar-default-link-color: darken(#ECF0F1, 15%);
+$navbar-default-link-hover-color: #26DDBE;
 $jumbotron-bg: white;
-$btn-primary-bg: #86e2d5;
+$btn-primary-bg: #26DDBE;
 
 @import 'bootstrap';
 
-.navbar-brand {
-	font-weight: bold;
+.navbar-default {
+	border: none;
+}
+
+.jumbotron {
+	h1 {
+		font-weight: 300;
+	}
 }
 
 .btn-lg { border-radius: $border-radius-large * 10; }
