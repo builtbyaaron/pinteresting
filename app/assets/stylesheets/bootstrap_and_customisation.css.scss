@@ -1,18 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-$body-bg: #ECF0F1;
+$body-bg: #faf9f9;
 
-$font-family-sans-serif: 'Source Code Pro', monospace;
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+$brand-primary: #e9576e;
+$link-color: $brand-primary;
+$text-color: #2b2b2b;
 
 $navbar-border-radius: 0;
 $navbar-height: 100px;
 $navbar-default-bg: white;
-$navbar-default-brand-color: darken(#ECF0F1, 15%);
-$navbar-default-brand-hover-color: #26DDBE;
-$navbar-default-link-color: darken(#ECF0F1, 15%);
-$navbar-default-link-hover-color: #26DDBE;
+$navbar-default-brand-color: $brand-primary;
+$navbar-default-link-color: $text-color;
+$navbar-default-link-hover-color: $link-color;
 $jumbotron-bg: white;
-$btn-primary-bg: #26DDBE;
+$btn-primary-bg: #e9576e;
 
 @import 'bootstrap';
 
@@ -22,7 +25,10 @@ $btn-primary-bg: #26DDBE;
 
 .jumbotron {
 	h1 {
-		font-weight: 300;
+		font-weight: 700;
+	}
+	p {
+		font-weight: 400;
 	}
 }
 

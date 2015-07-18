@@ -15,11 +15,13 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
-        <li><%= link_to "About", about_path %></li>
+        <% unless user_signed_in? %>
+          <li><%= link_to "About", about_path %></li>
+        <% end %>
         <% if user_signed_in? %>
           <li>
             <%= link_to new_pin_path do %>
-              <span class="glyphicon glyphicon-plus"></span> New Pin
+              New Pin
             <% end %>
           </li>
           <li><%= link_to "Settings", edit_user_registration_path %></li>
