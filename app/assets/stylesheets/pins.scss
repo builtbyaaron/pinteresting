@@ -1,3 +1,21 @@
+#notice-wrapper {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	background: rgba(#e9576e, 0.85);
+}
+
+.alert,
+.notice {
+	padding: 4.75rem 0;
+	text-align: center;
+	margin: 0;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 1px;
+}
+
 #pins {
 	margin: 0 auto;
 }
